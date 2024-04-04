@@ -11,6 +11,7 @@ export const SessionTitle = styled.h2`
 	text-align: center;
 	font-family: ${(props) => props.theme.fontFamily.merienda};
 	font-size: 2rem;
-	color: ${(props) => props.theme.color.navyBlue};
+	color: ${(props) => props.theme.color.royalBlue};
 	text-transform: capitalize;
+	margin-bottom: 4rem;
 `;

@@ -11,7 +11,7 @@ const destinationsData = [
 		stars: 3,
 		place: 'Brazil',
 		description:
-			'Dolor sit amet, consectetur adipisicing elit. Aut fuga labore nostrum, qui deserunt ratione non repudiandae in! Vel aliquid dignissimos aspernatur repudiandae. Dignissimos ipsa, voluptatum optio cum velit',
+			'Dolor sit amet, consectetur adipisicing elit. Aut fuga labore nostrum, qui deserunt ratione non repudiandae in! Vel aliquid dignissimos velit',
 		local: 'Rio de Janeiro',
 		days: 5,
 		nights: 4,
@@ -23,7 +23,7 @@ const destinationsData = [
 		stars: 5,
 		place: 'China',
 		description:
-			'Amet sit dolor, consectetur adipisicing elit. Aut fuga labore nostrum, qui deserunt ratione non repudiandae in! Vel aliquid dignissimos aspernatur repudiandae. Dignissimos ipsa, voluptatum optio cum velit',
+			'Amet sit dolor, consectetur adipisicing elit. Aut fuga labore nostrum, qui deserunt ratione non repudiandae in! Vel aliquid dignissimos velit',
 		local: 'Pequim',
 		days: 7,
 		nights: 6,
@@ -35,7 +35,7 @@ const destinationsData = [
 		stars: 4,
 		place: 'Russia',
 		description:
-			'Sit dolor amet, consectetur adipisicing elit. Aut fuga labore nostrum, qui deserunt ratione non repudiandae in! Vel aliquid dignissimos aspernatur repudiandae. Dignissimos ipsa, voluptatum optio cum velit',
+			'Sit dolor amet, consectetur adipisicing elit. Aut fuga labore nostrum, qui deserunt ratione non repudiandae in! Vel aliquid dignissimos velit',
 		local: 'Moscow',
 		days: 5,
 		nights: 5,
