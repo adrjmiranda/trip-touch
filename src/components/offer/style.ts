@@ -41,7 +41,7 @@ export const Info = styled.div`
 	button {
 		flex: 50%;
 		cursor: pointer;
-		border: ${(props) => props.theme.borderWidht.bwSmall} solid inherit;
+		border: ${(props) => props.theme.borderWidth.bwSmall} solid inherit;
 		color: ${(props) => props.theme.color.neutralWhite};
 		padding: 1rem 2rem;
 		border-radius: ${(props) => props.theme.borderRadius.brLarge};

@@ -36,7 +36,7 @@ export const Content = styled.div`
 		input {
 			font-size: 1rem;
 			flex: 1;
-			border: ${(props) => props.theme.borderWidht.bwMedium} solid transparent;
+			border: ${(props) => props.theme.borderWidth.bwMedium} solid transparent;
 			outline: none;
 			padding: 0.5rem 1rem;
 			border-top-left-radius: ${(props) => props.theme.borderRadius.brMedium};

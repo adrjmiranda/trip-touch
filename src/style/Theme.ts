@@ -21,7 +21,7 @@ const Theme = {
 		fwExtraLarge: '800',
 		fwOverLarge: '900',
 	},
-	borderWidht: {
+	borderWidth: {
 		bwSmall: '1px',
 		bwMedium: '2px',
 		bwLarge: '4px',
