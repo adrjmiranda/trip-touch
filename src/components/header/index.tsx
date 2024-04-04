@@ -15,7 +15,7 @@ const Header: FunctionComponent = (): ReactNode => {
 		<Style.Container
 			style={{
 				backgroundImage:
-					'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(' +
+					'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(' +
 					MainBg +
 					')',
 			}}
@@ -29,7 +29,11 @@ const Header: FunctionComponent = (): ReactNode => {
 						voluptates laudantium reiciendis.
 					</p>
 					<form action='#'>
-						<input type='search' name='search' />
+						<input
+							type='search'
+							name='search'
+							placeholder='Search for a place'
+						/>
 						<button type='submit'>Search</button>
 					</form>
 				</Style.Content>
