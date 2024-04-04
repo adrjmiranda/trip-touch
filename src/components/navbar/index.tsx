@@ -4,18 +4,15 @@ import { FunctionComponent, ReactNode } from 'react';
 import * as Style from './style';
 import { Wrapper } from '../../style/Components';
 
-// Icons
-import { ImAirplane } from 'react-icons/im';
+// Components
+import Logo from '../logo';
 
 const Navbar: FunctionComponent = (): ReactNode => {
 	return (
 		<Style.Container>
 			<Wrapper>
 				<Style.Content>
-					<Style.Logo href='#'>
-						<ImAirplane />
-						<span>Trip touch</span>
-					</Style.Logo>
+					<Logo />
 					<Style.Menu>
 						<li>
 							<a href='#'>Login</a>
