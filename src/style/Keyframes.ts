@@ -16,7 +16,7 @@ export const toggleTextColor = keyframes`
     color: ${colors.skyBlue};   
   }
   75% {
-    color: ${colors.deepOceanBlue};
+    color: white;
   }
   100% {
     color: ${colors.skyBlue};   
