@@ -1,10 +1,12 @@
 const Theme = {
 	color: {
+		darkGray: '#101010',
 		charcoalGray: '#3a3132',
 		navyBlue: '#0f4571',
 		royalBlue: '#386dbd',
 		deepOceanBlue: '#009ddd',
 		skyBlue: '#05d3f8',
+		neutralWhite: '#f9f9f9',
 	},
 	fontFamily: {
 		openSans: '"Open Sans", sans-serif',

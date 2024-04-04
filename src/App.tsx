@@ -1,10 +1,23 @@
 import { FunctionComponent, ReactNode } from 'react';
 
+// Components
+import Header from './components/header';
+import Destinations from './components/destinations';
+import Gallery from './components/gallery';
+import Offer from './components/offer';
+import Reviews from './components/reviews';
+import Footer from './components/footer';
+
 const App: FunctionComponent = (): ReactNode => {
 	return (
-		<div>
-			<h1>Trip Touch</h1>
-		</div>
+		<>
+			<Header />
+			<Destinations />
+			<Gallery />
+			<Offer />
+			<Reviews />
+			<Footer />
+		</>
 	);
 };
 
