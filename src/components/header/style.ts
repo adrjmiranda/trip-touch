@@ -21,6 +21,7 @@ export const Content = styled.div`
 		font-family: ${(props) => props.theme.fontFamily.merienda};
 		font-size: 4rem;
 		animation: ${toggleTextColor} 10s infinite;
+		text-transform: capitalize;
 	}
 
 	p {
