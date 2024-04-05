@@ -70,6 +70,7 @@ Error generating stack: `+i.message+`
 		font-family: ${e=>e.theme.fontFamily.merienda};
 		font-size: 4rem;
 		animation: ${Yh} 10s infinite;
+		text-transform: capitalize;
 	}
 
 	p {
