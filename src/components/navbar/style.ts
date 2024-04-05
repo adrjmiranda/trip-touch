@@ -9,6 +9,22 @@ export const Content = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	@media screen and (max-width: 576px) {
+		flex-wrap: wrap;
+	}
+`;
+
+export const ToggleMenu = styled.button`
+	background-color: transparent;
+	border: none;
+	font-size: 2rem;
+	color: inherit;
+	cursor: pointer;
+
+	@media screen and (min-width: 576px) {
+		display: none;
+	}
 `;
 
 export const Menu = styled.ul`
@@ -40,5 +56,33 @@ export const Menu = styled.ul`
 				opacity: 1;
 			}
 		}
+	}
+
+	&.show {
+		display: flex;
+		margin-top: 2rem;
+		width: 100%;
+		flex-direction: column;
+		gap: 0.5rem;
+
+		li {
+			text-align: center;
+			border-radius: ${(props) => props.theme.borderRadius.brMedium};
+			width: 100%;
+
+			a {
+				width: 100%;
+				padding: 0.5rem;
+				display: block;
+			}
+
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+		}
+	}
+
+	@media screen and (max-width: 576px) {
+		display: none;
 	}
 `;

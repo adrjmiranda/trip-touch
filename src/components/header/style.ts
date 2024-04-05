@@ -73,4 +73,11 @@ export const Content = styled.div`
 			cursor: pointer;
 		}
 	}
+
+	@media screen and (max-width: 576px) {
+		form {
+			min-width: auto;
+			width: 90%;
+		}
+	}
 `;

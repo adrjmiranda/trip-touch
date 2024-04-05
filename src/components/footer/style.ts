@@ -72,6 +72,44 @@ export const Content = styled.div`
 			align-items: flex-end;
 		}
 	}
+
+	@media screen and (max-width: 1115px) {
+		flex-direction: column;
+		align-items: flex-start;
+
+		.col {
+			p {
+				text-align: center;
+
+				&::first-letter {
+					margin-left: 0;
+				}
+			}
+
+			ul {
+				li {
+					a {
+						svg {
+							color: ${(props) => props.theme.color.skyBlue};
+						}
+
+						&:hover {
+							transform: scale(1.02);
+
+							svg {
+								color: ${(props) => props.theme.color.deepOceanBlue};
+							}
+						}
+					}
+				}
+			}
+
+			&:nth-child(3),
+			&:nth-child(4) {
+				align-items: flex-start;
+			}
+		}
+	}
 `;
 
 export const Acknowledgment = styled.div`

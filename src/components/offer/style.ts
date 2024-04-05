@@ -55,4 +55,9 @@ export const Info = styled.div`
 			background-color: rgba(255, 255, 255, 0.1);
 		}
 	}
+
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+		text-align: center;
+	}
 `;

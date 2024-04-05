@@ -43,4 +43,12 @@ export const Container = styled.div`
 			color: ${(props) => props.theme.color.neutralWhite};
 		}
 	}
+
+	@media screen and (max-width: 830px) {
+		width: 100%;
+
+		&:hover {
+			transform: scale(1.02);
+		}
+	}
 `;

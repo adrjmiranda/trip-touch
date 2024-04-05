@@ -10,4 +10,8 @@ export const Content = styled.div`
 	justify-content: center;
 	align-items: center;
 	gap: 2rem;
+
+	@media screen and (max-width: 830px) {
+		flex-direction: column;
+	}
 `;

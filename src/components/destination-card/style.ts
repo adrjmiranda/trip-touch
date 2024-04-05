@@ -29,6 +29,10 @@ export const Img = styled.div`
 			transform: scale(1.1);
 		}
 	}
+
+	@media screen and (max-width: 980px) {
+		height: 55%;
+	}
 `;
 
 export const Price = styled.div`
@@ -66,6 +70,11 @@ export const Price = styled.div`
 		gap: 0.2rem;
 		font-family: ${(props) => props.theme.fontFamily.merienda};
 	}
+
+	@media screen and (max-width: 980px) {
+		left: 3rem;
+		top: 4rem;
+	}
 `;
 
 export const Stars = styled.div`
@@ -95,6 +104,7 @@ export const Info = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	gap: 1rem;
 
 	h3 {
 		font-family: ${(props) => props.theme.fontFamily.merienda};
@@ -118,5 +128,10 @@ export const Info = styled.div`
 			gap: 0.3rem;
 			font-weight: ${(props) => props.theme.fontWeight.fwLarge};
 		}
+	}
+
+	@media screen and (max-width: 980px) {
+		padding-top: 1rem;
+		height: 45%;
 	}
 `;
